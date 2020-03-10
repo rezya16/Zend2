@@ -14,9 +14,7 @@
 return [
     'db' => [
         'driver' => 'PDO',
-        'dsn' => 'mysql:dbname=zf2tutorial;host=127.0.0.1:3306',
-        'username' => 'root',
-        'password' => 'root',
+        'dsn' => 'mysql:dbname=zf2tutorial;host=db',
         'driver_options' => [
             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
         ],
